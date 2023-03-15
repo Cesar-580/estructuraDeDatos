@@ -1,0 +1,39 @@
+\section{\Large{¿Que son las listas ligadas o enlazadas?}}
+
+\IEEEPARstart{E}{s} 
+\large{
+Es una \textbf{colección lineal} de elementos llamados \textbf{nodos}. El \textbf{orden} entre ellos se establece mediante \textbf{punteros, direcciones o referencia a otros nodos}.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\textwidth]{./images/ListaEnlazada.png}
+  \caption{Ejemplo de la estructura de una lista enlazada}
+  \label{fig:lenlazada}
+\end{figure}
+
+
+
+
+\vspace{0.2cm}
+
+\subsection{\Large{Nodo}} \vspace{0.3cm}
+
+Un nodo está constituido por dos partes: \vspace{0.5cm}
+
+\subsubsection{\large{Campo de información}}
+ Que será del \textbf{tipo de los datos} que quiera almacenar la lista \vspace{0.3cm}
+\subsubsection{\large{Campo de liga}}
+ Que se utiliza para establecer la liga o el enlace con otro \textbf{nodo} de la lista
+
+}
+
+\vspace{0.8cm}
+
+\large{\textbf{NOTA: } Un programa accede a una \textbf{Plista enlazada} mediante un \textbf{apuntador} al primer \textbf{nodo} en la \textbf{lista}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.3\textwidth]{./images/Nodo.png}
+  \caption{Ejemplo de la estructura de un nodo}
+  \label{fig:nodo}
+\end{figure}
